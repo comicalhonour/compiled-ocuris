@@ -8,7 +8,7 @@
 
     $conn = mysqli_connect($servername, $username, $password, $dbname);
 
-    $sql = "DELETE FROM userinformation WHERE id = $id";
+    $sql = "DELETE FROM inquire WHERE id = $id";
 
     $result = mysqli_query($conn, $sql);
 
